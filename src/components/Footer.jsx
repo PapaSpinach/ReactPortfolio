@@ -1,4 +1,5 @@
 import githubIcon from '../assets/github-mark.svg';
+import linkedin from '../assets/linkedin.svg';
 
 export default function Footer() {
   return (
@@ -9,6 +10,10 @@ export default function Footer() {
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
         <a href="https://github.com/PapaSpinach/" target="_blank">
           <img src={githubIcon} width={24} height={24} />
+        </a>
+
+        <a href="https://www.linkedin.com/in/aaron-beckles-524807311/" target="_blank">
+          <img src={linkedin} width={26} height={36} />
         </a>
       </nav>
     </footer>
